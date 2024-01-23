@@ -35,7 +35,8 @@ _no_install_headers_com +=
 
 _install_headers_com    += \
                            hy_assert.h \
-                           hy_mem.h
+                           hy_mem.h \
+                           hy_string.h
 
 # ------------------
 # make install files
