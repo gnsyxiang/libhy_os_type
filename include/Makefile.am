@@ -35,6 +35,7 @@ _no_install_headers_com +=
 
 _install_headers_com    += \
                            hy_assert.h \
+                           hy_compile.h \
                            hy_mem.h \
                            hy_module.h \
                            hy_string.h \
