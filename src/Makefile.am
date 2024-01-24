@@ -46,6 +46,7 @@ _include_com    += -I$(top_srcdir)/include
 
 _sources_com    += \
                    hy_mem.c \
+                   hy_os_type.c \
                    hy_string.c
 
 _cppflags_com   += \
