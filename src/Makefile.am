@@ -47,11 +47,12 @@ _include_com    += -I$(top_srcdir)/include
 _sources_com    += \
                    hy_mem.c \
                    hy_os_type.c \
-                   hy_string.c
+                   hy_string.c \
+                   hy_utils.c
 
 _cppflags_com   += \
                    $(_no_error_com) \
-                   $(_include_com)  \
+                   $(_include_com) \
                    $(_define_com)
 
 _cflags_com     +=
