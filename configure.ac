@@ -41,7 +41,6 @@ AC_PROG_MAKE_SET
 # Checks for libraries.
 
 CHECK_LIBCUNIT
-CHECK_LIBHY_LOG
 
 # Checks for header files.
 AC_CHECK_HEADERS([stdint.h])
