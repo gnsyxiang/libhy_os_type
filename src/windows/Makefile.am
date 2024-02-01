@@ -55,12 +55,6 @@ _cflags_com     +=
 
 _cxxflags_com   +=
 
-_ldflags_com    += -version-info @current@:@revision@:@age@
-
-if !COMPILE_DEBUG_INFO
-_ldflags_com    += -export-symbols-regex 'Hy*'
-endif
-
 _ldadd_com      += $(ldadd_com)
 
 lib@project_name@_@run_os@_la_SOURCES    = $(_sources_com)
