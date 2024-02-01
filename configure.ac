@@ -73,9 +73,7 @@ AC_CONFIG_FILES([Makefile
                  src/freertos/Makefile
                  src/linux/Makefile
                  src/windows/Makefile
-                 test/Makefile
-                 test/linux/Makefile
-                 test/windows/Makefile])
+                 test/Makefile])
 AC_OUTPUT
 
 AC_MSG_RESULT([
